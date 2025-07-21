@@ -3560,7 +3560,7 @@ main.container h3 {
 }
 
 .hero-text-overlay h2 {
-  font-size: clamp(1.3rem, 2.5vw + 0.8rem, 2.2rem) !important; /* Smaller responsive scaling */
+  font-size: clamp(1.2rem, 2.5vw + 0.2rem, 1.8rem) !important; /* Smaller responsive scaling */
   font-weight: bold !important;
   margin: 0 !important;
   text-shadow: clamp(1px, 0.2vw + 0.5px, 2px) clamp(1px, 0.2vw + 0.5px, 2px) clamp(2px, 0.5vw + 1px, 4px) rgba(0,0,0,0.3) !important; /* Scale shadow */
