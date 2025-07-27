@@ -1837,7 +1837,7 @@ document.addEventListener('DOMContentLoaded', function() {
         title: "Spot Recognition",
         icon: "fas fa-star",
         description: `
-          <p>Spot recognition allows managers and peers to acknowledge exceptional performance in real-time. Whether it's staying late to comfort a patient's family or stepping up during a staffing gap, this immediate, meaningful feedback energizes employees and reinforces positive behavior.</p>
+          <p>Spot recognition allows managers and peers to acknowledge exceptional performance in real-time. Whether it's staying late to get the job done or stepping up during a staffing gap, this immediate, meaningful feedback energizes employees and reinforces positive behavior.</p>
           
           <h4>The Power of Now: Why Timeliness Matters</h4>
           <p>For recognition to be most effective, it needs to be timely. Quick recognition creates momentum, boosts morale, and keeps employees engaged—especially during high-stress periods.</p>
@@ -1871,7 +1871,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <p>Peer recognition directly fuels teamwork. A study from SHRM found that <span class="stat-highlight stat-tooltip">41% of companies<span class="tooltip-content">Source: SHRM</span></span> using peer-to-peer recognition reported increased customer satisfaction, a direct result of improved collaboration. Furthermore, research from Achievers shows that peer feedback can improve an individual's performance by <span class="stat-highlight stat-tooltip">14%<span class="tooltip-content">Source: Achievers</span></span>.</p>
           
           <h4>Driving Insights</h4>
-          <p>Peer recognition also gives managers insight into behind-the-scenes contributions that might otherwise go unnoticed. This leads to a more connected workforce, better communication, and ultimately, stronger patient outcomes.</p>
+          <p>Peer recognition also gives managers insight into behind-the-scenes contributions that might otherwise go unnoticed. This leads to a more connected workforce, better communication, and ultimately, improved productivity and morale.</p>
         `,
         products: [
           { name: "Appreciation Gifts", image: "assets/images/AppreciationMagnets.png" },
@@ -1887,7 +1887,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <p>Point-based reward systems create flexible, engaging experiences that allow employees to earn points for reaching milestones, demonstrating leadership, or meeting departmental goals, then choose rewards that truly matter to them. This approach maximizes satisfaction while minimizing administrative overhead.</p>
           
           <h4>Retention and Engagement</h4>
-          <p>The choice and visibility of rewards builds friendly competition and excitement across teams, reinforcing engagement, and aligns behavior with organizational priorities. This includes efficiency, patient satisfaction, and quality care metrics.</p>
+          <p>The choice and visibility of rewards builds friendly competition and excitement across teams, reinforcing engagement, and aligns behavior with organizational priorities.</p>
           
           <h4>Flexible and Scalable</h4>
           <p>Point systems allow you to recognize both small daily achievements and major milestones with appropriate reward levels. Companies using point-based systems report <span class="stat-highlight stat-tooltip">23% higher participation rates<span class="tooltip-content">Source: RecogNation Study</span></span> in recognition programs compared to fixed-reward systems.</p>
@@ -1915,7 +1915,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <p>Award ceremonies and presentations create lasting memories that extend far beyond the moment of recognition. The Cicero Group research found that <span class="stat-highlight stat-tooltip">employees prefer awards over cash<span class="tooltip-content">Source: Cicero Group Research</span></span> because they can see the item and remember the experience, demonstrating the lasting impact of formal programs.</p>
           
           <h4>Setting Standards of Excellence</h4>
-          <p>Recognizing excellence in categories like innovation, teamwork, or patient advocacy sets clear expectations and highlights role models within the organization. This reinforces core values, elevates culture, and shows potential hires that your organization celebrates and invests in its people.</p>
+          <p>Recognizing excellence in categories like innovation, teamwork, or a productive attitude sets clear expectations and highlights role models within the organization. This reinforces core values, elevates culture, and shows potential hires that your organization celebrates and invests in its people.</p>
         `,
         products: [
           { name: "Custom Plaques", image: "assets/images/PlaquesWithStands.png" },
@@ -1937,7 +1937,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <p>Well-designed incentive programs foster positive competition that energizes teams without creating destructive rivalry. Research shows that <span class="stat-highlight stat-tooltip">teams with incentive programs show 22% higher collaboration<span class="tooltip-content">Source: SCIRP Gamification Study</span></span> when programs emphasize collective success alongside individual achievement.</p>
           
           <h4>Cost-Saving Initiative</h4>
-          <p>Incentive programs tied to cost-saving initiatives—such as reducing waste, managing overtime, or improving patient throughput—encourage smart, proactive behavior. Employees are rewarded not just for effort but for results that help the organization operate more efficiently.</p>
+          <p>Incentive programs tied to cost-saving initiatives—such as reducing waste, and managing overtime—encourage smart, proactive behavior. Employees are rewarded not just for effort but for results that help the organization operate more efficiently.</p>
         `,
         products: [
           { name: "Experience Packages", image: "assets/images/Weekend Travel bag.jpg" },
@@ -1950,7 +1950,7 @@ document.addEventListener('DOMContentLoaded', function() {
         title: "Attendance Recognition",
         icon: "fas fa-calendar-check",
         description: `
-          <p>Rewarding employees for consistent attendance encourages dependability and helps reduce the disruption caused by callouts or chronic absenteeism. This is especially vital in healthcare, where patient care continuity is critical.</p>
+          <p>Rewarding employees for consistent attendance encourages dependability and helps reduce the disruption caused by callouts or chronic absenteeism. This is especially vital in balancing the workplace load.</p>
           
           <h4>The Hidden Cost of Absenteeism</h4>
           <p>The CDC estimates that absenteeism costs U.S. employers <span class="stat-highlight stat-tooltip">$225.8 billion annually<span class="tooltip-content">Source: CDC</span></span> in lost productivity. Companies with attendance recognition programs see <span class="stat-highlight stat-tooltip">41% reduction in unscheduled absences<span class="tooltip-content">Source: SHRM</span></span> according to research from the Society for Human Resource Management.</p>
@@ -1959,7 +1959,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <p>When attendance is recognized and celebrated, it creates a culture where being present matters. Studies show that <span class="stat-highlight stat-tooltip">teams with attendance recognition have 23% better project completion rates<span class="tooltip-content">Source: Workplace Reliability Research</span></span> and <span class="stat-highlight stat-tooltip">18% higher customer satisfaction scores<span class="tooltip-content">Source: Workplace Reliability Research</span></span> due to improved consistency and reliability.</p>
           
           <h4>Beyond Perfect Attendance</h4>
-          <p>Modern attendance programs recognize improvement, not just perfection. Whether it's monthly or quarterly-this recognition can include points, small gifts, or public praise, all of which boost employee commitment. This reduces overtime burden on others, and positively impacts the patient experience and care quality.</p>
+          <p>Modern attendance programs recognize improvement, not just perfection. Whether it's monthly or quarterly-this recognition can include points, small gifts, or public praise, all of which boost employee commitment. This reduces overtime burden on others, and positively impacts their workplace experience.</p>
         `,
         products: [
           { name: "Public Recognition", image: "assets/images/PublicRecognition.jpg" },
