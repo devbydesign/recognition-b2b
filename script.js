@@ -351,7 +351,6 @@ document.addEventListener('DOMContentLoaded', function() {
             'Attendance Recognition': 'attendance',
             'Safety Recognition': 'safety',
             'Community Impact': 'community',
-            'Patient Care Recognition': 'patient-care',
             'Volunteer Recognition': 'volunteer'
           };
           
@@ -483,7 +482,6 @@ document.addEventListener('DOMContentLoaded', function() {
           'attendance': 'Attendance Recognition',
           'safety': 'Safety Recognition',
           'community': 'Community Impact',
-          'patient-care': 'Patient Care Recognition',
           'volunteer': 'Volunteer Recognition'
         };
         canvasFeatures = moduleIds.map(id => moduleToFeatureName[id]).filter(Boolean);
@@ -596,7 +594,6 @@ document.addEventListener('DOMContentLoaded', function() {
           'attendance': 'Attendance Recognition',
           'safety': 'Safety Recognition',
           'community': 'Community Impact',
-          'patient-care': 'Patient Care Recognition',
           'volunteer': 'Volunteer Recognition'
         };
         
@@ -840,8 +837,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'incentives': 'Motivate Success',
                 'attendance': 'Build Reliability',
                 'safety': 'Promote Safety',
-                'community': 'Honor Service',
-                'patient-care': 'Recognize Patient Care'
+                'community': 'Honor Service'
               };
               
               // Update the products section title
@@ -1171,7 +1167,6 @@ document.addEventListener('DOMContentLoaded', function() {
         'Attendance Recognition': 'attendance',
         'Safety Recognition': 'safety',
         'Community Impact': 'community',
-        'Patient Care Recognition': 'patient-care',
         'Volunteer Recognition': 'volunteer'
       };
 
@@ -1283,7 +1278,6 @@ document.addEventListener('DOMContentLoaded', function() {
           'Attendance Recognition': 'Building reliability culture and reducing absenteeism through consistent recognition',
           'Safety Recognition': 'Creating safety champions and preventing workplace incidents through proactive recognition',
           'Community Impact': 'Building purpose-driven culture through recognition of volunteer and community engagement',
-          'Patient Care Recognition': 'Recognizing exceptional patient care and fostering a culture of empathy',
           'Volunteer Recognition': 'Celebrating employee volunteerism to enhance engagement and organizational purpose'
         };
 
@@ -1441,7 +1435,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 'Safety Recognition': 'https://promomonster-clientportal.com/sub_category_post/employee-appreciation-merchandise-apparel/',
                 'Community Impact': 'https://promomonster-clientportal.com/sub_category_post/incentives-all-products/',
                 'Custom Recognition': 'https://promomonster-clientportal.com/sub_category_post/incentives-all-products/',
-                'Patient Care Recognition': 'https://promomonster-clientportal.com/sub_category_post/incentives-all-products/',
                 'Volunteer Recognition': 'https://promomonster-clientportal.com/sub_category_post/incentives-all-products/'
             };
             
@@ -1709,7 +1702,6 @@ document.addEventListener('DOMContentLoaded', function() {
             'Attendance Recognition': 'attendance',
             'Safety Recognition': 'safety',
             'Community Impact': 'community',
-            'Patient Care Recognition': 'patient-care',
             'Volunteer Recognition': 'volunteer',
             // Legacy fallbacks for old naming
             'Years of Service': 'service',
@@ -2020,29 +2012,7 @@ document.addEventListener('DOMContentLoaded', function() {
           { name: "Custom Drinkware", image: "assets/images/Drinkware2.png.png" }
         ]
       },
-      'patient-care': {
-        title: "Patient Care Recognition",
-        icon: "fas fa-heart-pulse",
-        description: `
-          <p>Recognize exceptional patient care to boost staff motivation, enhance patient satisfaction, and strengthen organizational loyalty.</p>
-          
-          <h4>The Impact on Patient Care</h4>
-          <!-- Source: Press Ganey -->
-          <p>Healthcare organizations with robust recognition programs see a <span class="stat-highlight stat-tooltip">12% improvement in patient satisfaction scores<span class="tooltip-content">Source: Press Ganey</span></span> and <span class="stat-highlight stat-tooltip">31% lower voluntary turnover<span class="tooltip-content">Source: Gallup</span></span> among clinical staff.</p>
-          
-          <h4>Building a Culture of Care</h4>
-          <p>When healthcare staff feel valued and recognized, they deliver better patient care. Our recognition program helps create a positive environment where exceptional care is celebrated and rewarded.</p>
-          
-          <h4>Recognition That Makes a Difference</h4>
-          <p>From personalized awards to practical items that enhance the workday, each recognition piece is designed to show appreciation for the critical work healthcare professionals do.</p>
-        `,
-        products: [
-          { name: "Customizable Awards", image: "assets/images/ServicePins.PNG" },
-          { name: "Blankets", image: "assets/images/Blankets.png.png" },
-          { name: "Personalized Pens", image: "assets/images/PersonalizedPen.png.png" },
-          { name: "Custom Socks", image: "assets/images/CustomSocks.png.png" }
-        ]
-      },
+
       'volunteer': {
         title: "Volunteer Recognition",
         icon: "fas fa-hands-helping",
@@ -2141,8 +2111,7 @@ document.addEventListener('DOMContentLoaded', function() {
               'attendance': 'Recognize Reliability',
               'safety': 'Celebrate Safety',
               'community': 'Honor Service',
-              'custom': 'Create Something Unique',
-              'patient-care': 'Recognize Patient Care'
+              'custom': 'Create Something Unique'
             };
             
             // Update the products section title
@@ -2235,8 +2204,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'incentives': 'Incentive Programs',
                 'attendance': 'Attendance Recognition',
                 'safety': 'Safety Recognition',
-                'community': 'Community Impact',
-                'patient-care': 'Patient Care Recognition'
+                'community': 'Community Impact'
               };
               
               const featureName = featureNameMap[featureKey];
