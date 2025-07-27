@@ -1897,7 +1897,7 @@
               
                 <div class="custom-form-group">
                 <label for="custom-program-name">Feature Name*</label>
-                  <input type="text" id="custom-program-name" placeholder="e.g., Innovation Awards, Customer Hero Recognition" required>
+                  <input type="text" id="custom-program-name" placeholder="e.g., Innovation Awards, Customer Hero Recognition" />
                 </div>
                 <div class="custom-form-group">
                 <label for="custom-program-description">Feature Description</label>
@@ -3311,6 +3311,44 @@
       if (hasLoadedFeatures && selectedFeatures.size > 0) {
         console.log(`Loaded ${selectedFeatures.size} previously selected features`);
       }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+          const form = document.getElementById("plan-details-form");
+          form.addEventListener("submit", function(event) {
+            event.preventDefault();
+    
+            visiblePlanInputs = Array.from(document.querySelectorAll('.selected-features .selected-feature-item button'));
+            formattedPlans = `<ul>${visiblePlanInputs.map(input => `<li>${input.getAttribute('data-feature')}</li>`).join('')}</ul>`;
+            affiliateName = document.getElementsByName('affiliateName')[0]?.value || '';
+            affiliateEmail = document.getElementsByName('affiliateEmail')[0]?.value || '';
+            headerImgPath = document.getElementsByName('headerImgPath')[0]?.value || '';
+            footerImgPath = document.getElementsByName('footerImgPath')[0]?.value || '';
+            firstName = document.getElementsByName('firstName')[0]?.value || '';
+            lastName = document.getElementsByName('lastName')[0]?.value || '';
+            phone = document.getElementsByName('phone')[0]?.value || '';
+            email = document.getElementsByName('email')[0]?.value || '';
+            companyName = document.getElementsByName('companyName')[0]?.value || '';
+    
+            emailjs.send("service_00hboeb", "template_1cfzg9f", {
+              planList: formattedPlans,
+              affiliateName: affiliateName,
+              affiliateEmail: affiliateEmail,
+              headerImgPath: headerImgPath,
+              footerImgPath: footerImgPath,
+              firstName: firstName,
+              lastName: lastName,
+              phone: phone,
+              email: email,
+              companyName: companyName,
+            })
+              .then(() => {
+                alert("Your submission was successful!");
+                form.reset();
+              }, (error) => {
+                alert("Your submission failed to save: " + JSON.stringify(error));
+              });
+          });
     });
   </script>
 </body>
