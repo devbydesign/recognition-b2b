@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="navigation.css?v=2">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="script.js" defer></script>
+  <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+  <script>
+    emailjs.init("Ymk4ILqxc716wQA3q");
+  </script>
   <style>
     :root {
       --primary-color: #23456C;
@@ -1658,7 +1662,11 @@
         <!-- Main Content: Recognition Program Features -->
         <div class="program-features-content">
           <h2>Design Your Program</h2>
-          
+        <form id="plan-details-form">
+          <input name="affiliateName" type="hidden" value="Rick Badiner">
+          <input name="affiliateEmail" type="hidden" value="Rbadiner@rbbmarketing.com">
+          <input name="headerImgPath" type="hidden" value="https://htmlgen.webdevbydesign.com/img/rbb-header.png">
+          <input name="footerImgPath" type="hidden" value="https://htmlgen.webdevbydesign.com/img/rbb-footer.png">
           <div class="detailed-modules-grid">
             <!-- Welcome Kits Feature -->
             <div class="detailed-module" data-feature-id="welcome">
@@ -1911,7 +1919,6 @@
     <section id="contact-delivery-section" class="contact-delivery-section" style="display: none;">
       <div class="form-container">
                     <h2 style="color: black;">Submit and Save Your Plan.</h2>
-        <form id="plan-details-form">
           <div class="form-grid">
               <div class="form-group">
                 <label for="first-name">First Name*</label>
