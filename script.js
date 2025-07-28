@@ -603,8 +603,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isAlreadyAdded) {
           modalAddToProgram.innerHTML = '✓ Added';
           modalAddToProgram.disabled = true;
-          modalAddToProgram.style.setProperty('background-color', '#23456C', 'important');
-          modalAddToProgram.style.setProperty('border-color', '#23456C', 'important');
+          modalAddToProgram.style.setProperty('background-color', '#93d4f0', 'important');
+          modalAddToProgram.style.setProperty('border-color', '#93d4f0', 'important');
           modalAddToProgram.style.setProperty('color', 'white', 'important');
           modalAddToProgram.style.setProperty('opacity', '1', 'important');
         } else {
@@ -924,8 +924,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 modalAddToProgram.innerHTML = '<i class="fas fa-check"></i> Added';
                 modalAddToProgram.classList.add('added');
                 modalAddToProgram.disabled = true;
-                modalAddToProgram.style.setProperty('background-color', '#23456C', 'important');
-                modalAddToProgram.style.setProperty('border-color', '#23456C', 'important');
+                modalAddToProgram.style.setProperty('background-color', '#93d4f0', 'important');
+                modalAddToProgram.style.setProperty('border-color', '#93d4f0', 'important');
                 modalAddToProgram.style.setProperty('color', 'white', 'important');
                 modalAddToProgram.style.setProperty('opacity', '1', 'important');
               }
@@ -1546,7 +1546,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const subject = `Program Plan Submission from ${firstName} ${lastName}`;
         const body = `New Program Plan Request:\n\nSelected Modules:\n- ${selectedModuleNames.join('\n- ')}\n\nContact Information:\nName: ${firstName} ${lastName}\nCompany: ${companyName}\nEmail: ${email}\nPhone: ${phone || 'Not provided'}`;
-        const mailtoLink = `mailto:rbadiner@rbbmarketing.com,theresa@stayvisible.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const mailtoLink = `mailto:craig.peck@acrobatbranding.com,theresa@stayvisible.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         
         setTimeout(() => {
             window.location.href = mailtoLink;
