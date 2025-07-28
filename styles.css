@@ -1,14 +1,14 @@
 :root {
-  --primary-color: #23456C; /* RBB Marketing Blue */
+  --primary-color: #93d4f0; /* RBB Marketing Blue */
   --secondary-color: #000000; /* Black */
-  --accent-color: #f7b801; /* Energetic Yellow */
-  --brand-green: #23456C; /* Brand Green */
-  --brand-orange: #23456C; /* Alias for primary color to fix existing references */
+  --accent-color: #f26615; /* Energetic Yellow */
+  --brand-green: #93d4f0; /* Brand Green */
+  --brand-orange: #f26615; /* Alias for primary color to fix existing references */
   --dark-color: #000000; /* Black for text */
   --light-color: #ffffff; /* White background */
   --medium-color: #f0f2f5; /* Light grey for backgrounds/borders */
   --text-muted: #666666; /* Muted text color */
-  --success-color: #23456C; /* RBB Marketing Blue for checkmarks etc. */
+  --success-color: #93d4f0; /* RBB Marketing Blue for checkmarks etc. */
   --border-radius: 6px;
   --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --font-secondary: 'Georgia', serif; /* For select headings or accents */
@@ -92,7 +92,7 @@ ul, ol {
 /* Header */
 header {
   background-color: var(--light-color);
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   color: var(--secondary-color);
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   position: sticky;
@@ -113,10 +113,11 @@ header .container {
   align-items: center;
   text-decoration: none;
   flex-shrink: 0; /* Prevent logo from shrinking */
+  margin: -0.05rem 0; /* Reduce padding around logo */
 }
 
 .logo img {
-  height: 56px;
+  height: 70px;
   width: auto;
   display: block;
 }
@@ -124,7 +125,7 @@ header .container {
 /* Adjust logo size for mobile */
 @media (max-width: 768px) {
   .logo img {
-    height: 43px;
+    height: 54px;
   }
 }
 
@@ -488,7 +489,7 @@ footer::before {
   justify-content: center;
   width: 35px;
   height: 35px;
-  background-color: #495057;
+  background-color: #f26615;
   color: var(--light-color);
   border-radius: 50%;
   text-decoration: none;
@@ -716,7 +717,7 @@ Base Section & Card Layouts
 
 .modal-content .btn,
 .modal-quote-btn {
-  background-color: var(--primary-color);
+  background-color: var(--accent-color);
   color: var(--light-color);
   border: none;
   transition: all var(--transition-speed);
@@ -727,10 +728,10 @@ Base Section & Card Layouts
 
 .modal-content .btn:hover,
 .modal-quote-btn:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--accent-color);
   color: var(--light-color);
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(94, 186, 15, 0.25);
+  box-shadow: 0 4px 8px rgba(242, 102, 21, 0.25);
 }
 
 /* Search Results */
@@ -1066,7 +1067,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 }
 
 .contact-form-section .btn {
-  background-color: #b65230;
+  background-color: #f26615;
   color: var(--light-color);
   padding: 0.75rem 1.5rem;
   border: none;
@@ -1512,12 +1513,12 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 .demo-action-button {
   margin: 3rem auto 0 auto;
   display: block;
-  background-color: var(--primary-color);
+  background-color: var(--accent-color);
   color: var(--light-color);
   padding: 1.5rem 3rem; /* Double of 0.75rem 1.5rem */
   font-size: 2rem; /* Double of 1rem (assuming base btn font-size) */
   /* Ensure other .btn styles are not negatively impacting */
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--accent-color);
   text-align: center;
   width: fit-content;
 }
@@ -1602,7 +1603,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 .program-module {
   position: relative;
   padding: 1.5rem;
-  background: #eff2f6;
+  background: #e9f6fc;
   border: 1px solid var(--border-color);
   border-radius: 8px;
   cursor: grab;
@@ -1811,8 +1812,8 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 /* See Details button */
 .canvas-see-details {
   background: transparent;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
   font-size: 0.85rem;
@@ -1895,9 +1896,9 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 }
 
 .builder-actions button {
-  background-color: var(--primary-color);
+  background-color: var(--accent-color);
   color: var(--light-color);
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--accent-color);
   margin: 0 0.5rem;
 }
 
@@ -1959,7 +1960,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 
 #captcha-question {
     font-weight: bold;
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .contact-delivery-section small {
@@ -2004,7 +2005,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 
 .summary-header h2 {
   margin: 0;
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 .whats-next {
@@ -2052,7 +2053,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
   padding: 0.5rem 1rem !important;
   border-radius: var(--border-radius) !important;
   margin-bottom: 1rem !important;
-  border-left: 4px solid #23456C !important;
+  border-left: 4px solid #93d4f0 !important;
   padding-left: 1.5rem !important;
 }
 
@@ -2588,9 +2589,9 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 /* Browse Incentives Button Styling for summary output only */
 .browse-incentives-btn {
   display: inline-block;
-  background-color: #23456C;
+  background-color: #93d4f0;
   color: white;
-  border: 2px solid #23456C;
+  border: 2px solid #93d4f0;
   padding: 0.5rem 1rem;
   border-radius: 6px;
   text-decoration: none;
@@ -2804,18 +2805,18 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 .resource-card .btn,
 .detailed-module .btn,
 .featured-products-section .btn {
-  background-color: #de733f;
+  background-color: #f26615;
   color: var(--light-color);
-  border: 2px solid #de733f;
+  border: 2px solid #f26615;
 }
 
 .modal-quote-btn:hover,
 .resource-card .btn:hover,
 .detailed-module .btn:hover,
 .featured-products-section .btn:hover {
-  background-color: #c55f2f;
+  background-color: #f26615;
   color: var(--light-color);
-  border-color: #c55f2f;
+  border-color: #f26615;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(222, 115, 63, 0.25);
 }
@@ -2840,7 +2841,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 
 /* Keep Request a Quote buttons orange */
 .modal-quote-btn {
-  background-color: #de733f;
+  background-color: var(--accent-color);
   color: var(--light-color);
   border: none;
   transition: all var(--transition-speed);
@@ -2850,7 +2851,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 }
 
 .modal-quote-btn:hover {
-  background-color: #c55f2f;
+  background-color: #f26615;
   color: var(--light-color);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(222, 115, 63, 0.25);
@@ -3014,27 +3015,27 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
   position: relative;
   border-bottom: 2px solid var(--brand-orange);
   border-radius: 8px;
-  background: linear-gradient(135deg, transparent 0%, rgba(94, 186, 15, 0.05) 100%);
+  background: linear-gradient(135deg, transparent 0%, rgba(242, 102, 21, 0.05) 100%);
 }
 
 .vital-stats-cta:hover {
-  color: var(--primary-color);
+  color: var(--accent-color);
   text-decoration: none;
-  border-bottom-color: var(--primary-color);
-  background: linear-gradient(135deg, rgba(94, 186, 15, 0.1) 0%, rgba(94, 186, 15, 0.15) 100%);
+  border-bottom-color: var(--accent-color);
+  background: linear-gradient(135deg, rgba(242, 102, 21, 0.1) 0%, rgba(242, 102, 21, 0.15) 100%);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(94, 186, 15, 0.2);
+  box-shadow: 0 4px 12px rgba(242, 102, 21, 0.2);
 }
 
 .vital-stats-cta i {
   font-size: 1.1rem;
   transition: all 0.3s ease;
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 .vital-stats-cta:hover i {
   transform: scale(1.2) rotate(5deg);
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
