@@ -210,7 +210,7 @@
 
     /* Button Styling - Make Save My Plan match Save & Continue */
     #generate-plan-btn {
-        background-color: var(--primary-color) !important;
+        background-color: var(--accent-color) !important;
         color: var(--light-color) !important;
         padding: 0.75rem 1.5rem !important;
         border-radius: var(--border-radius) !important;
@@ -218,7 +218,7 @@
         transition: all var(--transition-speed) !important;
         margin: 1rem auto 0 !important;
         font-weight: 600 !important;
-        border: 2px solid var(--primary-color) !important;
+        border: 2px solid var(--accent-color) !important;
         display: block !important;
         font-size: 1.125rem !important; /* Added proportional base font size */
     }
@@ -235,8 +235,8 @@
     /* See Details Button Styling */
     .see-details-btn {
       background: transparent;
-      border: 1px solid var(--primary-color);
-      color: var(--primary-color);
+      border: 1px solid var(--accent-color);
+      color: var(--accent-color);
       padding: 0.4rem 0.8rem;
       border-radius: 6px;
       font-size: 0.85rem;
@@ -248,8 +248,22 @@
       text-align: center;
     }
 
+    /* Save & Continue Button - Use accent orange with reverse hover */
+    #save-program-btn {
+      background-color: var(--accent-color) !important;
+      border-color: var(--accent-color) !important;
+    }
+
+    #save-program-btn:hover {
+      background-color: var(--light-color) !important;
+      color: var(--accent-color) !important;
+      border-color: var(--accent-color) !important;
+      transform: translateY(-3px) !important;
+      box-shadow: 0 6px 12px rgba(242, 102, 21, 0.15) !important;
+    }
+
     .see-details-btn:hover {
-      background: var(--primary-color);
+      background: var(--accent-color);
       color: white;
       transform: translateY(-1px);
       box-shadow: 0 2px 8px rgba(58, 12, 163, 0.2);
@@ -540,8 +554,8 @@
     /* Canvas Item Styles - matching see-details-btn */
     .canvas-item {
       background: transparent;
-      border: 1px solid var(--primary-color);
-      color: var(--primary-color);
+      border: 1px solid var(--accent-color);
+      color: var(--accent-color);
       padding: 0.75rem;
       margin: 0.5rem 0;
       border-radius: 6px;
@@ -603,16 +617,16 @@
       width: auto !important;
       white-space: nowrap;
       background: white !important;
-      color: var(--primary-color) !important;
-      border: 1px solid var(--primary-color) !important;
+      color: var(--accent-color) !important;
+      border: 1px solid var(--accent-color) !important;
     }
 
     .canvas-see-details:hover {
       background: white !important;
-      color: var(--primary-color) !important;
-      border: 1px solid var(--primary-color) !important;
+      color: var(--accent-color) !important;
+      border: 1px solid var(--accent-color) !important;
       transform: translateY(-1px);
-      box-shadow: 0 2px 8px rgba(58, 12, 163, 0.2);
+      box-shadow: 0 2px 8px rgba(242, 102, 21, 0.2);
     }
 
     .remove-btn {
@@ -692,7 +706,7 @@
       align-items: center;
       justify-content: center;
       box-sizing: border-box;
-      border: 2px solid var(--primary-color);
+      border: 2px solid var(--accent-color);
       font-size: 1rem;
       font-weight: 600;
       text-decoration: none;
@@ -703,13 +717,13 @@
       vertical-align: baseline;
       min-width: 150px;
       background-color: transparent;
-      color: var(--primary-color);
+      color: var(--accent-color);
     }
     
     .modal-actions .add-to-program-btn {
-      background-color: var(--primary-color) !important;
+      background-color: var(--accent-color) !important;
       color: white !important;
-      border-color: var(--primary-color) !important;
+      border-color: var(--accent-color) !important;
     }
     
     .modal-actions .add-to-program-btn:hover {
@@ -731,10 +745,10 @@
     }
     
     .modal-actions .btn:hover {
-      background-color: var(--primary-color);
+      background-color: var(--accent-color);
       color: white;
       transform: translateY(-1px);
-      box-shadow: 0 2px 8px rgba(58, 12, 163, 0.2);
+      box-shadow: 0 2px 8px rgba(242, 102, 21, 0.2);
     }
     
     @media (max-width: 768px) {
@@ -900,9 +914,9 @@
     /* Browse Incentives Button Styling */
     .browse-incentives-btn {
         display: inline-block;
-        background-color: #23456C;
+        background-color: #93d4f0;
         color: white;
-        border: 2px solid #23456C;
+        border: 2px solid #93d4f0;
         padding: 0.5rem 1rem;
         border-radius: 6px;
         text-decoration: none;
