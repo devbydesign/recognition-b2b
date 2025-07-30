@@ -1935,10 +1935,38 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
   margin: 0 auto;
   background-color: var(--light-color);
   padding: 2rem;
+  padding: 0;
   border-radius: var(--border-radius);
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+/* -- Specific to builder 1 only --  */
+
+.plan-details-form-1 {
+/*   max-width: 800px; */
+  margin: 0 auto;
+/*   changes for no double containers */
+/*   background-color: var(--light-color); */
+/*   padding: 2rem; */
+  padding: 0;
+  border-radius: var(--border-radius);
+/*   box-shadow: 0 4px 10px rgba(0,0,0,0.05); */
+}
+
+ /* -- Specific to builder 2 only --  */
+.plan-details-form-2  {
+    padding: 1rem;
+}
+.plan-details-form-2 .detailed-modules-grid {
+    padding: 30px;
+}
+
+.plan-details-form-2 .detailed-modules-grid .detailed-module {
+    margin: 0; /* spacing already handled by grid */
+}
+.plan-details-form-2 .detailed-modules-grid .detailed-module h3 {
+    justify-content: center;
+}
 .form-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
