@@ -1933,10 +1933,12 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 #plan-details-form {
 /*   max-width: 800px; */
   margin: 0 auto;
-  background-color: var(--light-color);
-  padding: 2rem;
+/*   changes for no double containers */
+/*   background-color: var(--light-color); */
+/*   padding: 2rem; */
+  padding: 0;
   border-radius: var(--border-radius);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+/*   box-shadow: 0 4px 10px rgba(0,0,0,0.05); */
 }
 
 .form-grid {
