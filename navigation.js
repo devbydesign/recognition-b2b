@@ -53,6 +53,20 @@ const navigationHTML = `
 function loadNavigation() {
   // Insert navigation HTML
   document.body.insertAdjacentHTML('afterbegin', navigationHTML);
+  // Auto-load standardized footer after nav
+  try {
+    const existingFooterScript = document.querySelector('script[data-auto-footer]');
+    if (!existingFooterScript) {
+      const s = document.createElement('script');
+      s.src = 'footer.js';
+      s.async = true;
+      s.defer = true;
+      s.setAttribute('data-auto-footer', 'true');
+      document.head.appendChild(s);
+    }
+  } catch (e) {
+    // no-op
+  }
   
   // Set active states based on current page
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
