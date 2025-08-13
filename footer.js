@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
             <div class="container copyright">
-                <p>&copy; <span id="current-year"></span> RBB Marketing. All rights reserved.</p>
+                <p>Website created by RBB Marketing. All rights reserved.</p>
             </div>
         </footer>
     `;
