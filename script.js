@@ -1744,7 +1744,7 @@ document.addEventListener('DOMContentLoaded', function() {
           { name: "Complete Kit", image: "assets/images/BrandMErchandise2.png" }
         ],
         customizeProducts: [
-          { name: "Clothing Bundle", image: "assets/images/clothes1.PNG" },
+          { name: "Clothing Bundle", image: "assets/images/ClothingBundle2.png" },
           { name: "Custom Bundle", image: "assets/images/bundle1.PNG" },
           { name: "Custom Kit", image: "assets/images/kit2.PNG" },
           { name: "Custom Gift Box", image: "assets/images/bundle3.PNG" },
@@ -1874,7 +1874,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <p>Peer recognition also gives managers insight into behind-the-scenes contributions that might otherwise go unnoticed. This leads to a more connected workforce, better communication, and ultimately, improved productivity and morale.</p>
         `,
         products: [
-          { name: "Appreciation Gifts", image: "assets/images/AppreciationMagnets.png" },
+          { name: "Appreciation Gifts", image: "assets/images/CeramicMugs4.png" },
           { name: "Customized Tokens", image: "assets/images/CustomizedTokens.png" },
           { name: "Small Gifts", image: "assets/images/StickyNotes.png" },
           { name: "Thank You Notes", image: "assets/images/ThankyouNotes.png" }
