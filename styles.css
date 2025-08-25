@@ -2199,11 +2199,23 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
   /* Optimize images for print */
   .summary-logo {
     max-height: 60px !important;
+    visibility: visible !important;
+    display: block !important;
+    opacity: 1 !important;
+  }
+  
+  .summary-header img {
+    visibility: visible !important;
+    display: block !important;
+    opacity: 1 !important;
   }
   
   .summary-feature-images img {
     width: 80px !important;
     height: 80px !important;
+    visibility: visible !important;
+    display: block !important;
+    opacity: 1 !important;
   }
 }
 
